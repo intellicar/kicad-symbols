@@ -581,6 +581,14 @@ K current switch
 F https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf
 $ENDCMP
 #
+$CMP MUX508IPW
+D 36-V, Low-Capacitance, Low-Leakage-Current, Precision, 1 channel 8:1 Analog Multiplexer, TSSOP-16
+$ENDCMP
+#
+$CMP MUX509IPW
+D 36-V, Low-Capacitance, Low-Leakage-Current, Precision, 2 channel 4:1 Analog Multiplexer, TSSOP-16
+$ENDCMP
+#
 $CMP NC7SB3157L6X
 D Single SPDT Low-Voltage Analog Switch or 2:1 Multiplexer/De-Multiplexer Bus Switch, 10Ohm Ron, MicroPak-6
 K CMOS Analog Switch
