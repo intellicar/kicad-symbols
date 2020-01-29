@@ -114,6 +114,10 @@ K ask receiver
 F http://ww1.microchip.com/downloads/en/DeviceDoc/micrf220.pdf
 $ENDCMP
 #
+$CMP NJG1156PCD
+D GPS Front-End Module
+$ENDCMP
+#
 $CMP NRF24L01
 D Ultra low power 2.4GHz RF Transceiver, QFN20 4x4mm
 K Low Power RF Transciever

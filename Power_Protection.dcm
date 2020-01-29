@@ -48,6 +48,11 @@ K common mode filter ESD protection
 F https://assets.nexperia.com/documents/data-sheet/IP3319CX6.pdf
 $ENDCMP
 #
+$CMP NUF2101M
+D USB ESD
+K USB ESD PROTECTION
+$ENDCMP
+#
 $CMP NUP2105L
 D Dual Line CAN Bus Protector, 24Vrwm
 K can esd protection suppression transient
@@ -256,6 +261,10 @@ $CMP TPD3E001DRLR
 D TPD3E001 Low-Capacitance 3-Channel ESD-Protection for High-Speed Data Interfaces
 K ESD-Protection
 F http://www.ti.com/lit/ds/symlink/tpd3e001.pdf
+$ENDCMP
+#
+$CMP TPD3F303
+D ESD Protection and EMI Filter for SIM Card Interface
 $ENDCMP
 #
 $CMP TPD3S014
