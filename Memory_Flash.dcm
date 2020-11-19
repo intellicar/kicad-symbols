@@ -126,6 +126,46 @@ D Flash EEProm 1MO (TSOP 40 pack.) 3,3V
 K EEPROM FLASH 1MO
 $ENDCMP
 #
+$CMP MX35LF1G24AD
+D 3V, 1G-bit, 8-Bit ECC, Serial NAND Flash Memory
+F http://www.macronix.com.tw/Lists/Datasheet/Attachments/7833/MX35LF2G24AD,%203V,%202Gb,%20v1.0.pdf
+$ENDCMP
+#
+$CMP MX35LF1GE4AB
+D 3V, 1G-bit, ECC-Free, Serial NAND Flash Memory
+F http://www.macronix.com.tw/Lists/Datasheet/Attachments/7770/MX35LF1GE4AB,%203V,%201Gb,%20v1.8.pdf
+$ENDCMP
+#
+$CMP MX35LF2G14AC
+D 3V, 2G-bit, 4-Bit ECC, Serial NAND Flash Memory
+F http://www.macronix.com.tw/Lists/Datasheet/Attachments/7926/MX35LF2G14AC,%203V,%202Gb,%20v1.1.pdf
+$ENDCMP
+#
+$CMP MX35LF2G24AD
+D 3V, 2G-bit, 8-Bit ECC, Serial NAND Flash Memory
+F http://www.macronix.com.tw/Lists/Datasheet/Attachments/7833/MX35LF2G24AD,%203V,%202Gb,%20v1.0.pdf
+$ENDCMP
+#
+$CMP MX35LF2GE4AB
+D 3V, 2G-bit, ECC-Free, Serial NAND Flash Memory, EOL
+F http://www.macronix.com.tw/Lists/Datasheet/Attachments/7823/MX35LF2GE4AB,%203V,%202Gb,%20v1.8.pdf
+$ENDCMP
+#
+$CMP MX35LF2GE4AD
+D 3V, 2G-bit, ECC-Free, Serial NAND Flash Memory
+F http://www.macronix.com.tw/Lists/Datasheet/Attachments/7770/MX35LF1GE4AB,%203V,%201Gb,%20v1.8.pdf
+$ENDCMP
+#
+$CMP MX35LF4G24AD
+D 3V, 4G-bit, 8-Bit ECC, Serial NAND Flash Memory
+F http://www.macronix.com.tw/Lists/Datasheet/Attachments/7833/MX35LF2G24AD,%203V,%202Gb,%20v1.0.pdf
+$ENDCMP
+#
+$CMP MX35LF4GE4AD
+D 3V, 4G-bit, ECC-Free, Serial NAND Flash Memory
+F http://www.macronix.com.tw/Lists/Datasheet/Attachments/7770/MX35LF1GE4AB,%203V,%201Gb,%20v1.8.pdf
+$ENDCMP
+#
 $CMP SST25VF080B-50-4x-S2Ax
 D 8-Mbit, 2.7 to 3.6V, SPI Flash Memory, SOIC-8
 K flash memory spi

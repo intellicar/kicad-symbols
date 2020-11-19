@@ -126,6 +126,14 @@ K Wi-Fi module
 F https://docs.particle.io/datasheets/p1-datasheet/
 $ENDCMP
 #
+$CMP Quectel_EC25
+F 2.3
+$ENDCMP
+#
+$CMP Quectel_MC60
+F https://www.codico.com/shop/media/datasheets/Quectel_MC60_Hardware_Design_V1.0_Preliminary_20160602.pdf
+$ENDCMP
+#
 $CMP RFM69HCW
 D Low power ISM Radio Transceiver Module, SPI interface, AES encryption, 434 or 915 MHz, up to 100mW, up to 300 kb/s, SMD-16, DIP-16
 K low power Radio ISM Transceiver Module AES encryption SPI HopeRF
@@ -202,6 +210,10 @@ $CMP TD1208
 D High-Performance, Low-Current SIGFOX™ Gateway
 K IOT SIGFOX
 F https://github.com/Telecom-Design/Documentation_TD_RF_Module/blob/master/TD1208%20Datasheet.pdf
+$ENDCMP
+#
+$CMP TELIT_LE910Cx
+D LTE Cat 4
 $ENDCMP
 #
 $CMP TR-52DA
