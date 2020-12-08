@@ -212,10 +212,6 @@ K IOT SIGFOX
 F https://github.com/Telecom-Design/Documentation_TD_RF_Module/blob/master/TD1208%20Datasheet.pdf
 $ENDCMP
 #
-$CMP TELIT_LE910Cx
-D LTE Cat 4
-$ENDCMP
-#
 $CMP TR-52DA
 D IQRF common transceiver with PCB antenna, FSK modulation
 K IQRF common transceiver, PCB antenna, FSK modulation
@@ -238,6 +234,10 @@ $CMP TR-72DAT
 D IQRF transceiver with PCB antenna and thermometer, GMSK modulation
 K IQRF transceiver, PCB antenna, thermometer, GMSK modulation
 F https://iqrf.org/weben/downloads.php?id=337
+$ENDCMP
+#
+$CMP Telit_LE910Cx
+D LTE Cat 4
 $ENDCMP
 #
 $CMP iM880A

@@ -1122,6 +1122,11 @@ K connector IEEE1394a FireWire
 F ~
 $ENDCMP
 #
+$CMP IntellicarDebugPin
+D Intellicar Debug port Edge connector
+K JTAG/SWD , UART, USB, USB
+$ENDCMP
+#
 $CMP JK0654219
 D  1 Port RJ45 Magjack Connector Through Hole 10/100/1000 Base-T, AutoMDIX
 K 8P8C RJ female connector
@@ -1222,6 +1227,17 @@ $CMP Mini-DIN-8
 D 8-pin Mini-DIN connector
 K Mini-DIN
 F http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf
+$ENDCMP
+#
+$CMP Molex_SDmicro_SIMmicro_Combo_1046421610
+D SDmicro-SIMmicro Combo
+K SDmicro, SIMmicro
+$ENDCMP
+#
+$CMP Molex_SIMmicro_787270001
+D Molex Sim Card ,Push-Pull micro-SIM Card Socket + detect
+K SIM
+F https://www.snapeda.com/parts/78727-0001/Molex/datasheet/
 $ENDCMP
 #
 $CMP Pulse_JXD6-0001NL

@@ -18,6 +18,11 @@ K Bosh IMU small low power inertial measurement unit
 F https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMI160-DS000.pdf
 $ENDCMP
 #
+$CMP BMX055
+D Bosch Sensortec 9-Axis Motion Sensor, Accelerometer, Gyroscope, Compass, I2C/SPI
+K IMU, mems, magnetometer
+$ENDCMP
+#
 $CMP BNO055
 D Intelligent 9-axis absolute orientation sensor, LGA-28
 K IMU, Sensor Fusion, I2C, UART

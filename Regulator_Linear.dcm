@@ -7092,10 +7092,28 @@ K LDO voltage regulator
 F http://www.ti.com/lit/ds/symlink/tps7a91.pdf
 $ENDCMP
 #
+$CMP XC6203ExxxPR
+D 400mA Low Dropout Voltage Regulator, Fixed Output, SOT-89, no current limiter
+K 400mA LDO Regulator Fixed Positive
+F https://www.mouser.in/datasheet/2/760/XC6203-846590.pdf
+$ENDCMP
+#
+$CMP XC6203PxxxPR
+D 400mA Low Dropout Voltage Regulator, Fixed Output, SOT-89, Current Limited
+K 400mA LDO Regulator Fixed Positive
+F https://www.mouser.in/datasheet/2/760/XC6203-846590.pdf
+$ENDCMP
+#
 $CMP XC6206PxxxMR
 D Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23
 K Torex LDO Voltage Regulator Fixed Positive
 F https://www.torexsemi.com/file/xc6206/XC6206.pdf
+$ENDCMP
+#
+$CMP XC6210xxxxPR
+D 400mA Low Dropout Voltage Regulator, Fixed Output, SOT-89, Current Limited
+K 400mA LDO Regulator Fixed Positive
+F https://www.torexsemi.com/file/xc6210/XC6210.pdf
 $ENDCMP
 #
 $CMP XC6220B331MR

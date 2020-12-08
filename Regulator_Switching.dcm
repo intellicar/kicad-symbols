@@ -5526,6 +5526,30 @@ K Step-Down DC-DC Converter
 F http://www.ti.com/lit/ds/symlink/tps62201.pdf
 $ENDCMP
 #
+$CMP TPS6282xDLCR
+D 2.4V to 5.5V, 1-A, 2-A, 3-A Step-Down Converter Family with 1% Accuracy
+K Step-Down Converter Texas Instruments
+F https://www.ti.com/lit/ds/symlink/tps62822.pdf?ts=1607268505284&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS62822
+$ENDCMP
+#
+$CMP TPS6282xDMQR
+D 2.4V to 5.5V Input, 1-, 2-, 3-, 4-A Step-down Converter with 1% Output
+K Step-Down Converter Texas Instruments
+F https://www.ti.com/lit/ds/symlink/tps62825.pdf?ts=1607268082338&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS62825
+$ENDCMP
+#
+$CMP TPS62840DLCR
+D 750mA, 60-nA IQ,High-Efficiency Step-Down DC-DC Converter, adjustable output voltage, 2.5-6V input voltage, SON-8
+K Step-Down Converter Texas Instruments
+F https://www.ti.com/lit/ds/symlink/tps62840.pdf?&ts=1589388306950
+$ENDCMP
+#
+$CMP TPS62842DGR
+D 750mA, 60-nA IQ,High-Efficiency Step-Down DC-DC Converter, adjustable output voltage, 2.5-6V input voltage, VSSOP-8
+K Step-Down Converter Texas Instruments
+F https://www.ti.com/lit/ds/symlink/tps62840.pdf?&ts=1589388306950
+$ENDCMP
+#
 $CMP TPS63000
 D Buck-Boost Converter, 1.8-5.5V Input Voltage, 1.8A Switch Current, Adjustable 1.2-5.5V Output Voltage, VSON-10
 K Buck-Boost adjustable converter
@@ -5662,6 +5686,144 @@ $CMP VIPer25LN
 D 12W SMPS Controller, AC-DC, PDIP-7
 K SMPS Controller with MOSFET 12W AC-DC
 F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00231127.pdf
+$ENDCMP
+#
+$CMP XC9242B08CDR
+D 1.2MHz switching PWM buck regulator, 2000mA , Current limiter auto recovery
+K Torex switching voltage regulator buck adjustable output
+F https://www.torexsemi.com/file/xc9242/XC9242-XC9243.pdf
+$ENDCMP
+#
+$CMP XC9242B08DDR
+D 2.4MHz switching PWM buck regulator, 2000mA , Current limiter auto recovery
+K Torex switching voltage regulator buck adjustable output
+F https://www.torexsemi.com/file/xc9242/XC9242-XC9243.pdf
+$ENDCMP
+#
+$CMP XC9243B08DCR
+D 1.2MHz switching PWM/PFM buck regulator, 2000mA , Current limiter auto recovery
+K Torex switching voltage regulator buck adjustable output
+F https://www.torexsemi.com/file/xc9242/XC9242-XC9243.pdf
+$ENDCMP
+#
+$CMP XC9243B08DDR
+D 2.4MHz switching PWM/PFM buck regulator, 2000mA , Current limiter auto recovery
+K Torex switching voltage regulator buck adjustable output
+F https://www.torexsemi.com/file/xc9242/XC9242-XC9243.pdf
+$ENDCMP
+#
+$CMP XC9260AxxCER
+D 1.2MHz switching PWM buck regulator, 1500mA, Current limiter auto recovery
+K Torex switching voltage regulator buck adjustable output
+F https://www.torexsemi.com/file/xc9260/XC9260-XC9261.pdf
+$ENDCMP
+#
+$CMP XC9260AxxDER
+D 3.0MHz switching PWM buck regulator, 1500mA , Current limiter auto recovery
+K Torex switching voltage regulator buck adjustable output
+F https://www.torexsemi.com/file/xc9260/XC9260-XC9261.pdf
+$ENDCMP
+#
+$CMP XC9260BxxCER
+D 1.2MHz switching PWM buck regulator, 1500mA, Current limiter latch
+K Torex switching voltage regulator buck adjustable output
+F https://www.torexsemi.com/file/xc9260/XC9260-XC9261.pdf
+$ENDCMP
+#
+$CMP XC9260BxxDER
+D 3.0MHz switching PWM buck regulator, 1500mA , Current limiter latch
+K Torex switching voltage regulator buck adjustable output
+F https://www.torexsemi.com/file/xc9260/XC9260-XC9261.pdf
+$ENDCMP
+#
+$CMP XC9261AxxCER
+D 1.2MHz switching PWM/PFM buck regulator, 1500mA , Current limiter auto recovery
+K Torex switching voltage regulator buck adjustable output
+F https://www.torexsemi.com/file/xc9260/XC9260-XC9261.pdf
+$ENDCMP
+#
+$CMP XC9261AxxDER
+D 3.0MHz switching PWM/PFM buck regulator, 1500mA , Current limiter auto recovery
+K Torex switching voltage regulator buck adjustable output
+F https://www.torexsemi.com/file/xc9260/XC9260-XC9261.pdf
+$ENDCMP
+#
+$CMP XC9261BxxCER
+D 1.2MHz switching PWM/PFM buck regulator, 1500mA, Current limiter latch
+K Torex switching voltage regulator buck adjustable output
+F https://www.torexsemi.com/file/xc9260/XC9260-XC9261.pdf
+$ENDCMP
+#
+$CMP XC9261BxxDER
+D 3.0MHz switching PWM/PFM buck regulator, 1500mA , Current limiter latch
+K Torex switching voltage regulator buck adjustable output
+F https://www.torexsemi.com/file/xc9260/XC9260-XC9261.pdf
+$ENDCMP
+#
+$CMP XC9263A755ER
+D 500kHz switching PWM buck regulator, 500mA , Current limiter latch
+K Torex switching voltage regulator buck adjustable output
+F https://www.torexsemi.com/file/xc9263/XC9263-XC9264.pdf
+$ENDCMP
+#
+$CMP XC9263A75CER
+D 1.2MHz switching PWM buck regulator, 500mA , Current limiter latch
+K Torex switching voltage regulator buck adjustable output
+F https://www.torexsemi.com/file/xc9263/XC9263-XC9264.pdf
+$ENDCMP
+#
+$CMP XC9263A75DER
+D 2.2MHz switching PWM buck regulator, 500mA , Current limiter latch
+K Torex switching voltage regulator buck adjustable output
+F https://www.torexsemi.com/file/xc9263/XC9263-XC9264.pdf
+$ENDCMP
+#
+$CMP XC9263B755ER
+D 500kHz switching PWM buck regulator, 500mA , Current limiter auto recovery
+K Torex switching voltage regulator buck adjustable output
+F https://www.torexsemi.com/file/xc9263/XC9263-XC9264.pdf
+$ENDCMP
+#
+$CMP XC9263B75CER
+D 1.2MHz switching PWM buck regulator, 500mA , Current limiter auto recovery
+K Torex switching voltage regulator buck adjustable output
+F https://www.torexsemi.com/file/xc9263/XC9263-XC9264.pdf
+$ENDCMP
+#
+$CMP XC9263B75DER
+D 2.2MHz switching PWM buck regulator, 500mA , Current limiter auto recovery
+K Torex switching voltage regulator buck adjustable output
+F https://www.torexsemi.com/file/xc9263/XC9263-XC9264.pdf
+$ENDCMP
+#
+$CMP XC9264A755ER
+D 500kHz switching PWM/PFM buck regulator, 500mA , Current limiter latch
+K Torex switching voltage regulator buck adjustable output
+F https://www.torexsemi.com/file/xc9263/XC9263-XC9264.pdf
+$ENDCMP
+#
+$CMP XC9264A75CER
+D 1.2MHz switching PWM/PFM buck regulator, 500mA , Current limiter latch
+K Torex switching voltage regulator buck adjustable output
+F https://www.torexsemi.com/file/xc9263/XC9263-XC9264.pdf
+$ENDCMP
+#
+$CMP XC9264A75DER
+D 2.2MHz switching PWM/PFM buck regulator, 500mA , Current limiter latch
+K Torex switching voltage regulator buck adjustable output
+F https://www.torexsemi.com/file/xc9263/XC9263-XC9264.pdf
+$ENDCMP
+#
+$CMP XC9264B755ER
+D 500kHz switching PWM/PFM buck regulator, 500mA , Current limiter auto recovery
+K Torex switching voltage regulator buck adjustable output
+F https://www.torexsemi.com/file/xc9263/XC9263-XC9264.pdf
+$ENDCMP
+#
+$CMP XC9264B75DER
+D 2.2MHz switching PWM/PFM buck regulator, 500mA , Current limiter auto recovery
+K Torex switching voltage regulator buck adjustable output
+F https://www.torexsemi.com/file/xc9263/XC9263-XC9264.pdf
 $ENDCMP
 #
 #End Doc Library
