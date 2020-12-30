@@ -180,7 +180,7 @@ K Level-Shifter CMOS-TTL-Translation
 F http://www.ti.com/lit/gpn/txs0102
 $ENDCMP
 #
-$CMP TXS0108EPW
+$CMP TXS0108E
 D Bidirectional  level-shifting voltage translator, TSSOP-20
 K 8-bit
 F www.ti.com/lit/ds/symlink/txs0108e.pdf

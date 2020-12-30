@@ -10946,6 +10946,9 @@ F0 "J?" -300 650 50 H V C CNN
 F1 "IntellicarDebugPin" -500 550 50 H V C CNN
 F2 "Connector_PCBEdge:IntellicarDebugPin" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ IntellicarDebugPin
+$ENDFPLIST
 DRAW
 C -150 85 25 2 1 10 F
 C -25 135 15 2 1 10 F
@@ -12064,6 +12067,9 @@ F4 "2.25mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
 F5 "Molex" 0 0 50 H I L BNN "MANUACTURER"
 F6 "A4" 0 0 50 H I L BNN "PARTREV"
 F7 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+$FPLIST
+ Molex_SDmicro_SIMmicro_Combo_1046421610
+$ENDFPLIST
 DRAW
 S -300 -600 300 500 1 0 10 f
 S -400 -600 500 500 2 0 10 f
