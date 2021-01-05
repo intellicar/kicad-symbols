@@ -666,6 +666,12 @@ K high-voltage mosfet-driver hot-swap
 F http://www.ti.com/lit/ds/symlink/lm5060.pdf
 $ENDCMP
 #
+$CMP LM66100DCK
+D Ideal Diode,  79-mΩ, 1.5-5.5V, 1.5A, SC-70(6)
+K Low IQ Ideal Diode With Input Polarity Protection
+F https://www.ti.com/lit/ds/symlink/lm66100.pdf
+$ENDCMP
+#
 $CMP LM74700
 D Low Iq reverse battery protection ideal diode controller, SOT-23-6
 K ideal-diode or-ing
@@ -850,6 +856,18 @@ $CMP LTC4417IUF
 D Prioritized PowerPath Controller, Selects Highest Priority Supply from Three Inputs, –40°C to 85°C, QFN
 K switch power FET sequence
 F https://www.analog.com/media/en/technical-documentation/data-sheets/4417f.pdf
+$ENDCMP
+#
+$CMP MAX40200ANS
+D Ideal Diode, Ultra-Low Voltage Drop, 1.5-5.5V, 1A, WLP-4
+K current switch
+F https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf
+$ENDCMP
+#
+$CMP MAX40200AUK
+D Ideal Diode, Ultra-Low Voltage Drop, 1.5-5.5V, 1A, SOT-23-5
+K current switch
+F https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf
 $ENDCMP
 #
 $CMP MAX8586

@@ -569,18 +569,6 @@ K CMOS Analog Switch
 F https://datasheets.maximintegrated.com/en/ds/MAX394.pdf
 $ENDCMP
 #
-$CMP MAX40200ANS
-D Ideal Diode, Ultra-Low Voltage Drop, 1.5-5.5V, 1A, WLP-4
-K current switch
-F https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf
-$ENDCMP
-#
-$CMP MAX40200AUK
-D Ideal Diode, Ultra-Low Voltage Drop, 1.5-5.5V, 1A, SOT-23-5
-K current switch
-F https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf
-$ENDCMP
-#
 $CMP MUX508IPW
 D 36-V, Low-Capacitance, Low-Leakage-Current, Precision, 1 channel 8:1 Analog Multiplexer, TSSOP-16
 $ENDCMP
