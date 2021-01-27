@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP nRF24L01
+D Ultra low power 2.4GHz RF Transceiver, QFN20 4x4mm
+K Low Power RF Transciever
+F http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf
+$ENDCMP
+#
+$CMP nRF24L01P
+D nRF24L01+, Ultra low power 2.4GHz RF Transceiver, QFN20 4x4mm
+K Low Power RF Transciever
+F http://www.nordicsemi.com/eng/content/download/2726/34069/file/nRF24L01P_Product_Specification_1_0.pdf
+$ENDCMP
+#
 $CMP nRF51x22-QFxx
 D Multiprotocol BLE/2.4GHz Cortex-M0+ SoC
 K MCU, ARM, BLE, 2.4GHz
@@ -24,10 +36,21 @@ K MCU, ARM, BLE, 2.4GHz
 F http://infocenter.nordicsemi.com/pdf/nRF52832_PS_v1.4.pdf
 $ENDCMP
 #
+$CMP nRF52833-QIxx
+D Bluetooth 5.1, IEEE 802.15.4-2006, 2.4 GHz transceiver
+K Bluetooth
+$ENDCMP
+#
 $CMP nRF52840
 D Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, AQFN-73
 K MCU, ARM, BLE, ANT, 2.4GHz, 802.15.4
 F http://infocenter.nordicsemi.com/topic/com.nordic.infocenter.nrf52/dita/nrf52/chips/nrf52840.html
+$ENDCMP
+#
+$CMP nRF8001
+D BLE LE Connectivity IC, QFN-32
+K BLE, bluetooth
+F https://www.nordicsemi.com/eng/nordic/content_download/2981/38488/file/nRF8001_PS_v1.3.pdf
 $ENDCMP
 #
 #End Doc Library
