@@ -1074,6 +1074,11 @@ K expresscard pci express
 F https://web.archive.org/web/20180809060653/http://www.usb.org/developers/expresscard/EC_specifications/ExpressCard_2_0_FINAL.pdf
 $ENDCMP
 #
+$CMP FMS006U-3100-0
+D Memory Card Connectors 6P SIM CARD CONN STANDARD MNT MANUAL
+F https://componentsearchengine.com/Datasheets/1/FMS006U-3100-0.pdf
+$ENDCMP
+#
 $CMP HDMI_A
 D HDMI type A connector
 K hdmi conn
