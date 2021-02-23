@@ -534,6 +534,12 @@ K Single FET Bus Switch
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
+$CMP 74LV1T125
+D 1 of 2 Decoder, Low-Voltage CMOS
+K Single Decoder LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
 $CMP 74LVC1G00
 D Single NAND Gate, Low-Voltage CMOS
 K Single Gate NAND LVC CMOS
@@ -633,12 +639,6 @@ $ENDCMP
 $CMP 74LVC1G18
 D Single Demultiplexer, Low-Voltage CMOS
 K Single Demux LVC CMOS
-F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
-$ENDCMP
-#
-$CMP 74LVC1G19
-D 1 of 2 Decoder, Low-Voltage CMOS
-K Single Decoder LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
