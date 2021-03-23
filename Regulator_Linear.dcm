@@ -2592,7 +2592,7 @@ K Negative voltage regulator
 F http://www.ti.com/lit/ds/symlink/lm2990.pdf
 $ENDCMP
 #
-$CMP LM317L_SO8
+$CMP LM317L_SOT223
 D 100mA 35V Adjustable Linear Regulator, SO-8
 K Adjustable Voltage Regulator 100mA Positive
 F http://www.ti.com/lit/ds/snvs775k/snvs775k.pdf
