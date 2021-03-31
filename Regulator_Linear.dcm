@@ -1980,6 +1980,24 @@ K 150mA LDO Regulator Fixed Positive
 F http://www.st.com/resource/en/datasheet/ld39015.pdf
 $ENDCMP
 #
+$CMP LD39200DPUR
+D 1.25 V to 6 V Input, Adj Output, 2A, 4x4, Ultra Very Low Dropout, High PSRR, linear regulator with reverse current protection
+K 2 A high PSRR ultra low drop linear regulator with reverse current protection
+F https://www.st.com/resource/en/datasheet/ld39200.pdf
+$ENDCMP
+#
+$CMP LD39200PU33R
+D 1.25 V to 6 V Input, 3.3VOutput, 2A, 3x3, Ultra Very Low Dropout, High PSRR, linear regulator with reverse current protection
+K 2 A high PSRR ultra low drop linear regulator with reverse current protection
+F https://www.st.com/resource/en/datasheet/ld39200.pdf
+$ENDCMP
+#
+$CMP LD39200PUR
+D 1.25 V to 6 V Input, Adj Output, 2A, 3x3, Ultra Very Low Dropout, High PSRR, linear regulator with reverse current protection
+K 2 A high PSRR ultra low drop linear regulator with reverse current protection
+F https://www.st.com/resource/en/datasheet/ld39200.pdf
+$ENDCMP
+#
 $CMP LD3985G122R_TSOT23
 D 150mA Low Dropout Voltage Regulator, Fixed Output 1.22V, TSOT-23-5
 K 150mA LDO Regulator Fixed Positive
@@ -5446,6 +5464,18 @@ $CMP NCP133AMX100TCG
 D 500  mA  VLDO  equipped  with  NMOS  pass transistor  and  a  separate  bias  supply  voltage
 K Single Output LDO
 F http://www.onsemi.com/pub/Collateral/NCP133-D.PDF
+$ENDCMP
+#
+$CMP NCP161AMXxxxTBG
+D  1.9 V to 5.5 V Input, Ultra Low Quiescent Current 18uA, 450 mA, Active Discharge , Very Low Dropout, Ultra High PSRR, Ultra Low Noise
+K LDO Regulator for RF and Analog Circuits - Ultra-Low Noise and High PSRR 450 mA
+F https://www.onsemi.com/pdf/datasheet/ncp161-d.pdf
+$ENDCMP
+#
+$CMP NCP161BMXxxxTBG
+D  1.9 V to 5.5 V Input, Ultra Low Quiescent Current 18uA, 450 mA, Non-Active Discharge , Very Low Dropout, Ultra High PSRR, Ultra Low Noise
+K LDO Regulator for RF and Analog Circuits - Ultra-Low Noise and High PSRR 450 mA
+F https://www.onsemi.com/pdf/datasheet/ncp161-d.pdf
 $ENDCMP
 #
 $CMP NCP718xSN120
