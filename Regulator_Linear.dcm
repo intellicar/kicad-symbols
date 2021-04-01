@@ -5520,6 +5520,11 @@ K Single Output LDO Wide Input
 F https://www.onsemi.com/pub/Collateral/NCP718-D.PDF
 $ENDCMP
 #
+$CMP NCP730ASNADJT1G
+D 150 mA, 38V Input, Low-IQ LDO, ADJ with PG
+K Single Output LDO Low-Noise
+$ENDCMP
+#
 $CMP NCV8114ASN120T1G
 D 300mA, Low Noise, Linear Regulator with output active discharge function, 1.7-5.5V input voltage range, 1.2V fixed positive output, TSOT-23-5
 K linear regulator ldo fixed positive
