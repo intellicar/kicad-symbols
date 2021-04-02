@@ -1074,11 +1074,6 @@ K expresscard pci express
 F https://web.archive.org/web/20180809060653/http://www.usb.org/developers/expresscard/EC_specifications/ExpressCard_2_0_FINAL.pdf
 $ENDCMP
 #
-$CMP FMS006U-3100-0
-D Memory Card Connectors 6P SIM CARD CONN STANDARD MNT MANUAL
-F https://componentsearchengine.com/Datasheets/1/FMS006U-3100-0.pdf
-$ENDCMP
-#
 $CMP HDMI_A
 D HDMI type A connector
 K hdmi conn
@@ -1119,6 +1114,12 @@ $CMP HDMI_E
 D HDMI type E connector
 K hdmi conn
 F https://www.hdmi.org/manufacturer/specification.aspx
+$ENDCMP
+#
+$CMP Hirose_SDmicro_SIMnano_Combo_KP15B-6S-SF_800
+D micro SD-nano Sim Combo
+K KP15B-6S-SF(800)
+F https://www.hirose.com/en/product/p/CL0480-0333-0-00#
 $ENDCMP
 #
 $CMP IEEE1394a
@@ -1235,13 +1236,13 @@ F http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf
 $ENDCMP
 #
 $CMP Molex_SDmicro_SIMmicro_Combo_1046421610
-D SDmicro-SIMmicro Combo
-K SDmicro, SIMmicro
+D micro SD-micro SIM Combo
+K 1046421610
 $ENDCMP
 #
 $CMP Molex_SIMmicro_787270001
-D Molex Sim Card ,Push-Pull micro-SIM Card Socket + detect
-K SIM
+D micro SIM, Push-Pull Card Socket + detect
+K 787270001
 F https://www.snapeda.com/parts/78727-0001/Molex/datasheet/
 $ENDCMP
 #
@@ -1897,6 +1898,12 @@ $CMP XLR6
 D XLR Connector, Male or Female, 6 Pins
 K xlr connector
 F  ~
+$ENDCMP
+#
+$CMP Yamaichi_SIMmini_FMS006U-3100-0
+D mini SIM
+K FMS006U-3100-0
+F https://componentsearchengine.com/Datasheets/1/FMS006U-3100-0.pdf
 $ENDCMP
 #
 #End Doc Library
