@@ -1240,6 +1240,12 @@ D micro SD-micro SIM Combo
 K 1046421610
 $ENDCMP
 #
+$CMP Molex_SDmicro_SIMnano_Combo_1042391430
+D micro SD-nano SIM Combo
+K 1042391430
+F http://www.farnell.com/datasheets/2215667.pdf
+$ENDCMP
+#
 $CMP Molex_SIMmicro_787270001
 D micro SIM, Push-Pull Card Socket + detect
 K 787270001
