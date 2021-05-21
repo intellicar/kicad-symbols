@@ -102,9 +102,14 @@ K RF GAIN BLOCK
 F https://www.nxp.com/docs/en/data-sheet/BGA2874.pdf
 $ENDCMP
 #
+$CMP BGU700x,115
+D GPS/GNSS Low Noise Amplifier, XSON-6
+K LNA
+$ENDCMP
+#
 $CMP MAX2679
 D GPS/GNSS Ultra-Low Current Low-Noise Amplifier, +19dB @ 1.57GHz, WLP-4
-K RF GAIN BLOCK
+K RF GAIN BLOCK, LNA
 F https://datasheets.maximintegrated.com/en/ds/MAX2679-MAX2679B.pdf
 $ENDCMP
 #
@@ -122,7 +127,7 @@ $ENDCMP
 #
 $CMP SPF5189Z
 D 50MHz to 4000MHz, GaAs pHEMT low noise MMIC amplifier, SOT-89
-K RF GAIN BLOCK
+K RF GAIN BLOCK, LNA
 F www.qorvo.com/products/d/da001910
 $ENDCMP
 #

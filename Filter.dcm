@@ -12,6 +12,12 @@ K EMI Filter SMD Murata
 F https://www.murata.com/en-us/products/productdetail.aspx?cate=luNoiseSupprFilteBlockType&partno=BNX025H01%23
 $ENDCMP
 #
+$CMP F6QA1G582H2JM-J
+D Taiyo Yuden 1582MHz SAW filter, SMD 1109
+K SAW filter
+F https://www.mouser.in/datasheet/2/396/TaiyoYuden_F6QA1G582H2JM_Spec-1206927.pdf
+$ENDCMP
+#
 $CMP FN405-0.5-02
 D 0.5A, 250VAC, 50/60Hz line filter
 K EMI
