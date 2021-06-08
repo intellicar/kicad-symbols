@@ -144,6 +144,12 @@ K Low Power RTC I2C
 F https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-8523-C3.pdf
 $ENDCMP
 #
+$CMP RX6110SA
+D Realtime Clock/Calendar Serial Interface, Low Power, Seiko Epson
+K Low Power RTC I2C SPI
+F https://support.epson.biz/td/api/doc_check.php?dl=app_RX6110SA&lang=en
+$ENDCMP
+#
 $CMP RX8130CE
 D Realtime Clock/Calendar I2C Interface, Extreme Low Power, Seiko Epson
 K Low Power RTC I2C
