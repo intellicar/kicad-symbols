@@ -1,32 +1,26 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP R7FA6M4AD3CFM
-D ARM Cortex-M33 MCU, 200MHz, 512KB Flash, 256KB RAM, 2.7-3.6V, LQFP-64
+$CMP R7FA2L1xxxxFL
+D ARM Cortex-M23 MCU, 48MHz, 1.6-5.5V, LQFP-48
+K RA2L1
+F https://www.renesas.com/us/en/document/dst/ra2l1-group-datasheet
+$ENDCMP
+#
+$CMP R7FA2L1xxxxFM
+D ARM Cortex-M23 MCU, 48MHz, 1.6-5.5V, LQFP-64
+K RA2L1
+F https://www.renesas.com/us/en/document/dst/ra2l1-group-datasheet
+$ENDCMP
+#
+$CMP R7FA6M4xxxxFM
+D ARM Cortex-M33 MCU, 200MHz, 2.7-3.6V, LQFP-64
+K RA6M4
 F https://www.renesas.com/us/en/doc/products/mpumcu/doc/ra/001/r01uh0890ej0110-ra6m4.pdf?key=a97ff1cf8795c0132634576d9226e130
 $ENDCMP
 #
-$CMP R7FA6M4AD3CFP
-D ARM Cortex-M33 MCU, 200MHz, 512KB Flash, 256KB RAM, 2.7-3.6V, LQFP-100
-F https://www.renesas.com/us/en/doc/products/mpumcu/doc/ra/001/r01uh0890ej0110-ra6m4.pdf?key=a97ff1cf8795c0132634576d9226e130
-$ENDCMP
-#
-$CMP R7FA6M4AE3CFM
-D ARM Cortex-M33 MCU, 200MHz, 768KB Flash, 256KB RAM, 2.7-3.6V, LQFP-64
-F https://www.renesas.com/us/en/doc/products/mpumcu/doc/ra/001/r01uh0890ej0110-ra6m4.pdf?key=a97ff1cf8795c0132634576d9226e130
-$ENDCMP
-#
-$CMP R7FA6M4AE3CFP
-D ARM Cortex-M33 MCU, 200MHz, 768KB Flash, 256KB RAM, 2.7-3.6V, LQFP-100
-F https://www.renesas.com/us/en/doc/products/mpumcu/doc/ra/001/r01uh0890ej0110-ra6m4.pdf?key=a97ff1cf8795c0132634576d9226e130
-$ENDCMP
-#
-$CMP R7FA6M4AF3CFM
-D ARM Cortex-M33 MCU, 200MHz, 1MB Flash, 256KB RAM, 2.7-3.6V, LQFP-64
-F https://www.renesas.com/us/en/doc/products/mpumcu/doc/ra/001/r01uh0890ej0110-ra6m4.pdf?key=a97ff1cf8795c0132634576d9226e130
-$ENDCMP
-#
-$CMP R7FA6M4AF3CFP
-D ARM Cortex-M33 MCU, 200MHz, 1MB Flash, 256KB RAM, 2.7-3.6V, LQFP-100
+$CMP R7FA6M4xxxxFP
+D ARM Cortex-M33 MCU, 200MHz, 2.7-3.6V, LQFP-100
+K RA6M4
 F https://www.renesas.com/us/en/doc/products/mpumcu/doc/ra/001/r01uh0890ej0110-ra6m4.pdf?key=a97ff1cf8795c0132634576d9226e130
 $ENDCMP
 #

@@ -12,6 +12,12 @@ K ESD Protection diodes transient suppressor
 F http://www.onsemi.com/pub_link/Collateral/CM1213A-D.PDF
 $ENDCMP
 #
+$CMP DALC208SC6
+D ESD Protection Diodes with Low Capacitance, SOT-23-6
+K ESD protection diodes
+F http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF
+$ENDCMP
+#
 $CMP DT1240A-08LP3810
 D Low Capacitance TVS Diode Array, 3.3V Standoff, 8 Channels, UDFN-9
 K usb esd protection suppression transient
