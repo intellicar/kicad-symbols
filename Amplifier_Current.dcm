@@ -168,6 +168,24 @@ K current sense shunt monitor
 F http://www.ti.com/lit/ds/symlink/ina193.pdf
 $ENDCMP
 #
+$CMP INA199x1D
+D Current Shunt Monitor −0.3 to +26V Common-Mode Range, 50V/V, SC70 (6)
+K current sense shunt monitor
+F https://www.ti.com/lit/ds/symlink/ina199.pdf
+$ENDCMP
+#
+$CMP INA199x2D
+D Current Shunt Monitor −0.3 to +26V Common-Mode Range, 100V/V, SC70 (6)
+K current sense shunt monitor
+F https://www.ti.com/lit/ds/symlink/ina199.pdf
+$ENDCMP
+#
+$CMP INA199x3D
+D Current Shunt Monitor −0.3 to +26V Common-Mode Range, 200V/V, SC70 (6)
+K current sense shunt monitor
+F https://www.ti.com/lit/ds/symlink/ina199.pdf
+$ENDCMP
+#
 $CMP INA240A1D
 D High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 20V/V, SOIC-8
 K current monitor shunt sensor bidirectional high low
