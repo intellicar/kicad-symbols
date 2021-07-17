@@ -114,6 +114,18 @@ K Current shunt monitor
 F http://www.ti.com/lit/ds/symlink/bq500100.pdf
 $ENDCMP
 #
+$CMP HV7800
+D High Side Current Monitor, 8 to 450V, 1V/V, SOT-23-5
+K High Side Current Monitor
+F https://www.mouser.in/datasheet/2/268/HV7801_A062813-1365745.pdf
+$ENDCMP
+#
+$CMP HV7801
+D High Side Current Monitor, 8 to 450V, 5V/V, SOT-23-5
+K High Side Current Monitor
+F https://www.mouser.in/datasheet/2/268/HV7801_A062813-1365745.pdf
+$ENDCMP
+#
 $CMP INA138
 D High-Side Measurement Current Shunt Monitor, 36V, SOT-23-5
 K current sense shunt monitor
