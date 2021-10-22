@@ -1266,6 +1266,12 @@ K N-Channel MOSFET
 F http://www.diodes.com/assets/Datasheets/DMG2302U.pdf
 $ENDCMP
 #
+$CMP DMG2305UX
+D -5.0A Id, -20V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F https://www.diodes.com/assets/Datasheets/DMG2305UX.pdf
+$ENDCMP
+#
 $CMP DMG3402L
 D 4A Id, 30V Vds, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET
@@ -2358,6 +2364,18 @@ K Single N-Channel HEXFET Power MOSFET
 F http://www.irf.com/product-info/datasheets/data/irlz44n.pdf
 $ENDCMP
 #
+$CMP KI2301BDS
+D -2.2A Id, -20V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F https://www.digchip.com/datasheets/parts/datasheet/946/KI2301BDS-pdf.php
+$ENDCMP
+#
+$CMP KI2303BDS
+D -1.3A Id, -30V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F https://www.digchip.com/datasheets/parts/datasheet/946/KI2303BDS-pdf.php
+$ENDCMP
+#
 $CMP MMBF170
 D 0.5A Id, 60V Vds, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET
@@ -2458,6 +2476,12 @@ $CMP Si1442DH
 D 12V Vds, TrenchFET N-Channel Power MOSFET, SC-70-6
 K TrenchFET N-Channel Power MOSFET
 F http://www.vishay.com/docs/63772/si1442dh.pdf
+$ENDCMP
+#
+$CMP Si2303
+D -3.0A Id, -30V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F https://www.mccsemi.com/pdf/Products/SI2303(SOT-23).pdf
 $ENDCMP
 #
 $CMP Si2319CDS

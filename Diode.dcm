@@ -1794,6 +1794,42 @@ K diode
 F http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf
 $ENDCMP
 #
+$CMP SMAJxxxA
+D 400W unidirectional Transient Voltage Suppressor, SMA(DO-214AC)
+K diode TVS voltage suppressor
+F https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP SMAJxxxCA
+D 400W bidirectional Transient Voltage Suppressor, SMA(DO-214AC)
+K diode TVS voltage suppressor
+F https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP SMBJxxxA
+D 600W unidirectional Transient Voltage Suppressor, SMB(DO-214AA)
+K diode TVS voltage suppressor
+F https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP SMBJxxxCA
+D 600W bidirectional Transient Voltage Suppressor, SMB(DO-214AA)
+K diode TVS voltage suppressor
+F ~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP SMCJxxxA
+D 1500W unidirectional Transient Voltage Suppressor, SMC(DO-214AB)
+K diode TVS voltage suppressor
+F https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smcj_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP SMCJxxxCA
+D 1500W bidirectional Transient Voltage Suppressor, SMC(DO-214AB)
+K diode TVS voltage suppressor
+F ~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smcj_datasheet.pdf.pdf
+$ENDCMP
+#
 $CMP SMZxxx
 D 2000mW Zener Diode, MELF
 K zener diode

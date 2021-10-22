@@ -708,9 +708,21 @@ K EMI T-filter
 F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
 $ENDCMP
 #
-$CMP EMI_Filter_CommonMode
-D EMI 2-inductor common mode filter
+$CMP EMI_Filter_CommonMode_1234
+D EMI 2-inductor filter, pin-connections 1-2 and 3-4
 K EMI common mode filter
+F ~
+$ENDCMP
+#
+$CMP EMI_Filter_CommonMode_1243
+D EMI 2-inductor filter, pin-connections 1-2 and 4-3
+K EMI filter common-mode choke
+F ~
+$ENDCMP
+#
+$CMP EMI_Filter_CommonMode_1423
+D EMI 2-inductor filter, pin-connections 1-4 and 2-3
+K EMI filter common-mode choke
 F ~
 $ENDCMP
 #
@@ -723,12 +735,6 @@ $ENDCMP
 $CMP EMI_Filter_LL
 D EMI 2-inductor filter
 K EMI filter
-F ~
-$ENDCMP
-#
-$CMP EMI_Filter_LL_1423
-D EMI 2-inductor filter, pin-connections 1-4 and 2-3
-K EMI filter common-mode choke
 F ~
 $ENDCMP
 #

@@ -144,24 +144,6 @@ K R POT
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
 $ENDCMP
 #
-$CMP MCP42010
-D Dual Digital Potentiometer, SPI interface, 256 taps, 10 kohm
-K R POT
-F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
-$ENDCMP
-#
-$CMP MCP42050
-D Dual Digital Potentiometer, SPI interface, 256 taps, 50 kohm
-K R POT
-F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
-$ENDCMP
-#
-$CMP MCP42100
-D Dual Digital Potentiometer, SPI interface, 256 taps, 100 kohm
-K R POT
-F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
-$ENDCMP
-#
 $CMP MCP4251-xxxx-ML
 D Dual 8 Bit Digital Pot, SPI, Volatile Memory, QFN-16
 K Digital Pot Potentiometer
@@ -184,6 +166,18 @@ $CMP MCP4251-xxxx-ST
 D Dual 8 Bit Digital Pot, SPI, Volatile Memory, TSSOP-14
 K Digital Pot Potentiometer
 F http://ww1.microchip.com/downloads/en/devicedoc/22060b.pdf
+$ENDCMP
+#
+$CMP MCP42xxx-x-
+D Dual Digital Potentiometer, SPI interface, 256 taps
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP4431-xxxx-ST
+D Quad Digital potentiometer, I2C interface, 128 taps, TSSOP-20
+K digital potentiometer
+F https://www.microchip.com/content/dam/mchp/documents/OTH/ProductDocuments/DataSheets/22267A_MCP4431.pdf
 $ENDCMP
 #
 $CMP MCP45HV31-MQ

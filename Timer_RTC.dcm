@@ -180,6 +180,12 @@ K Low Power RTC I2C SPI
 F https://support.epson.biz/td/api/doc_check.php?dl=app_RX6110SA&lang=en
 $ENDCMP
 #
+$CMP RX8111CE
+D Realtime Clock/Calendar I2C Interface, Extreme Low Power, Seiko Epson
+K Low Power RTC I2C
+F https://www.mouser.in/datasheet/2/137/RX8111CE_en-2025060.pdf
+$ENDCMP
+#
 $CMP RX8130CE
 D Realtime Clock/Calendar I2C Interface, Extreme Low Power, Seiko Epson
 K Low Power RTC I2C
