@@ -96,6 +96,12 @@ K single opamp
 F www.analog.com/media/en/technical-documentation/data-sheets/ADA4870.pdf
 $ENDCMP
 #
+$CMP ADA4891-1
+D Single Rail-to-Rail Input/Output Amplifiers, SOT-23-6
+K single opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4891-1_4891-2_4891-3_4891-4.PDF
+$ENDCMP
+#
 $CMP ADA4898-1YRDZ
 D High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp, SOIC-8
 K opamp single low noise low distortion

@@ -5478,6 +5478,12 @@ K LDO Regulator for RF and Analog Circuits - Ultra-Low Noise and High PSRR 450 m
 F https://www.onsemi.com/pdf/datasheet/ncp161-d.pdf
 $ENDCMP
 #
+$CMP NCP164AMTxxxTAG
+D 1.6 V to 5.5 V Input, 300mA low dropout linear regulator, adjustable output, Low Noise, High PSRR, WDFN6 2x2
+K 300mA  LDO linear voltage regulator adjustable positive
+F https://www.onsemi.com/pdf/datasheet/ncp164-d.pdf
+$ENDCMP
+#
 $CMP NCP718xSN120
 D 300-mA, Wide Input Voltage, Low-IQ LDO, 1.2V, SOT-23
 K Single Output LDO Wide Input
