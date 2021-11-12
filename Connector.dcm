@@ -1139,7 +1139,27 @@ K connector IEEE1394a FireWire
 F ~
 $ENDCMP
 #
-$CMP IntellicarDebugPin
+$CMP Intellicar_8P8C_1Port_Host
+D RJ connector, 8P8C (8 positions 8 connected), 4 Port, RJ45, Shielded
+K RJ connector, 8P8C (8 positions 8 connected), 4 Port, RJ45, Shielded
+$ENDCMP
+#
+$CMP Intellicar_8P8C_1Port_Slave
+D RJ connector, 8P8C (8 positions 8 connected), 4 Port, RJ45, Shielded
+K RJ connector, 8P8C (8 positions 8 connected), 4 Port, RJ45, Shielded
+$ENDCMP
+#
+$CMP Intellicar_8P8C_4Port_Host
+D RJ connector, 8P8C (8 positions 8 connected), 4 Port, RJ45, Shielded
+K RJ connector, 8P8C (8 positions 8 connected), 4 Port, RJ45, Shielded
+$ENDCMP
+#
+$CMP Intellicar_8P8C_4Port_Slave
+D RJ connector, 8P8C (8 positions 8 connected), 4 Port, RJ45, Shielded
+K RJ connector, 8P8C (8 positions 8 connected), 4 Port, RJ45, Shielded
+$ENDCMP
+#
+$CMP Intellicar_Debug_Pin
 D Intellicar Debug port Edge connector
 K JTAG/SWD , UART, USB, USB
 $ENDCMP
